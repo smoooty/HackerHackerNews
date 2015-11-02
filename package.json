@@ -1,0 +1,25 @@
+{
+  "name": "ReactNativeHackerNews",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "entities": "^1.1.1",
+    "events": "^1.0.2",
+    "htmlparser2": "^3.8.2",
+    "moment": "^2.9.0",
+    "react-native": "^0.4.1",
+    "react-native-custom-navigation": "^0.2.1",
+    "react-native-dashed-border": "^2.1.0",
+    "react-native-htmlview": "^0.1.2",
+    "react-native-refreshable-listview": "^1.0.0",
+    "react-native-swipeout": "^2.1.0",
+    "underscore": "^1.7.0",
+    "url": "^0.10.3",
+    "url-join": "0.0.1",
+    "util": "^0.10.3",
+    "xtend": "^4.0.0"
+  }
+}

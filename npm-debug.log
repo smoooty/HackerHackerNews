@@ -1,0 +1,235 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/spencerpope/.nvm/versions/node/v4.1.2/bin/node',
+1 verbose cli   '/Users/spencerpope/.nvm/versions/node/v4.1.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-native-navbar',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose install initial load of /Users/spencerpope/Desktop/ReactNativeHackerNews/package.json
+5 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/entities/package.json
+6 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/events/package.json
+7 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/htmlparser2/package.json
+8 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/moment/package.json
+9 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native/package.json
+10 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-custom-navigation/package.json
+11 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-dashed-border/package.json
+12 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-htmlview/package.json
+13 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar/package.json
+14 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-refreshable-listview/package.json
+15 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-swipeout/package.json
+16 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/underscore/package.json
+17 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/url/package.json
+18 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/url-join/package.json
+19 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/util/package.json
+20 verbose installManyTop reading scoped package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/xtend/package.json
+21 info package.json entities@1.1.1 license should be a valid SPDX license expression
+22 info package.json events@1.1.0 events is also the name of a node core module.
+23 info package.json react-native@0.4.4 No license field.
+24 info package.json url@0.10.3 url is also the name of a node core module.
+25 info package.json util@0.10.3 util is also the name of a node core module.
+26 info package.json xtend@4.0.0 No license field.
+27 info package.json react-native-dashed-border@2.1.0 No license field.
+28 verbose readDependencies loading dependencies from /Users/spencerpope/Desktop/ReactNativeHackerNews/package.json
+29 verbose install react-native-navbar is installed as 1.0.3
+30 silly cache add args [ 'react-native-navbar', null ]
+31 verbose cache add spec react-native-navbar
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'react-native-navbar',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'react-native-navbar',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: '*',
+32 silly cache add   type: 'range' }
+33 silly addNamed react-native-navbar@*
+34 verbose addNamed "*" is a valid semver range for react-native-navbar
+35 silly addNameRange { name: 'react-native-navbar', range: '*', hasData: false }
+36 silly mapToRegistry name react-native-navbar
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/react-native-navbar
+40 verbose addNameRange registry:https://registry.npmjs.org/react-native-navbar not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/react-native-navbar
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 4:13:37 PM
+44 verbose request using bearer token for auth
+45 verbose request id 7b132d3ee22b651f
+46 verbose etag "DROAZUQPUVU8GOHTT020DQ6I7"
+47 http request GET https://registry.npmjs.org/react-native-navbar
+48 http 304 https://registry.npmjs.org/react-native-navbar
+49 silly get cb [ 304,
+49 silly get   { 'cache-control': 'max-age=60',
+49 silly get     'accept-ranges': 'bytes',
+49 silly get     date: 'Wed, 28 Oct 2015 20:13:38 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-atl6229-ATL',
+49 silly get     'x-cache': 'MISS',
+49 silly get     'x-cache-hits': '0',
+49 silly get     'x-timer': 'S1446063218.033784,VS0,VE27' } ]
+50 verbose etag https://registry.npmjs.org/react-native-navbar from cache
+51 verbose get saving react-native-navbar to /Users/spencerpope/.npm/registry.npmjs.org/react-native-navbar/.cache.json
+52 silly addNameRange number 2 { name: 'react-native-navbar', range: '*', hasData: true }
+53 silly addNameRange versions [ 'react-native-navbar',
+53 silly addNameRange   [ '0.1.0',
+53 silly addNameRange     '0.2.0',
+53 silly addNameRange     '0.2.1',
+53 silly addNameRange     '0.3.0',
+53 silly addNameRange     '0.3.1',
+53 silly addNameRange     '0.3.2',
+53 silly addNameRange     '0.3.3',
+53 silly addNameRange     '0.4.0',
+53 silly addNameRange     '0.4.1',
+53 silly addNameRange     '0.4.2',
+53 silly addNameRange     '0.4.3',
+53 silly addNameRange     '0.4.4',
+53 silly addNameRange     '0.4.5',
+53 silly addNameRange     '0.4.6',
+53 silly addNameRange     '0.4.7',
+53 silly addNameRange     '0.4.8',
+53 silly addNameRange     '0.5.0',
+53 silly addNameRange     '0.5.1',
+53 silly addNameRange     '0.5.2',
+53 silly addNameRange     '0.5.3',
+53 silly addNameRange     '0.5.4',
+53 silly addNameRange     '0.6.0',
+53 silly addNameRange     '0.6.1',
+53 silly addNameRange     '0.6.2',
+53 silly addNameRange     '0.7.0',
+53 silly addNameRange     '0.7.1',
+53 silly addNameRange     '0.7.2',
+53 silly addNameRange     '0.7.3',
+53 silly addNameRange     '0.8.0',
+53 silly addNameRange     '0.8.1',
+53 silly addNameRange     '0.8.2',
+53 silly addNameRange     '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.0.3' ] ]
+54 silly addNamed react-native-navbar@1.0.3
+55 verbose addNamed "1.0.3" is a plain semver version for react-native-navbar
+56 silly cache afterAdd react-native-navbar@1.0.3
+57 verbose afterAdd /Users/spencerpope/.npm/react-native-navbar/1.0.3/package/package.json not in flight; writing
+58 verbose afterAdd /Users/spencerpope/.npm/react-native-navbar/1.0.3/package/package.json written
+59 silly install resolved [ { name: 'react-native-navbar',
+59 silly install resolved     version: '1.0.3',
+59 silly install resolved     description: 'Simple customizable navbar component for react-native',
+59 silly install resolved     main: 'index.js',
+59 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+59 silly install resolved     repository:
+59 silly install resolved      { type: 'git',
+59 silly install resolved        url: 'git+https://github.com/Kureev/react-native-navbar.git' },
+59 silly install resolved     keywords: [ 'react-native', 'navbar' ],
+59 silly install resolved     peerDependencies: { 'react-native': '>=0.11 || 0.13.0-rc' },
+59 silly install resolved     author:
+59 silly install resolved      { name: 'Alexey Kureev',
+59 silly install resolved        email: 'kureev-mail@ya.ru',
+59 silly install resolved        url: 'https://github.com/Kureev' },
+59 silly install resolved     license: 'MIT',
+59 silly install resolved     bugs: { url: 'https://github.com/Kureev/react-native-navbar/issues' },
+59 silly install resolved     homepage: 'https://github.com/Kureev/react-native-navbar',
+59 silly install resolved     gitHead: 'af65f9425ee9f19bfd51c99bd870a0af61f1fe90',
+59 silly install resolved     _id: 'react-native-navbar@1.0.3',
+59 silly install resolved     _shasum: '060d7798f417ff008d819487beccd6754ea5e239',
+59 silly install resolved     _from: 'react-native-navbar@*',
+59 silly install resolved     _npmVersion: '2.14.7',
+59 silly install resolved     _nodeVersion: '4.0.0',
+59 silly install resolved     _npmUser: { name: 'kureev', email: 'kureev-mail@ya.ru' },
+59 silly install resolved     maintainers: [ [Object] ],
+59 silly install resolved     dist:
+59 silly install resolved      { shasum: '060d7798f417ff008d819487beccd6754ea5e239',
+59 silly install resolved        tarball: 'http://registry.npmjs.org/react-native-navbar/-/react-native-navbar-1.0.3.tgz' },
+59 silly install resolved     directories: {},
+59 silly install resolved     _resolved: 'https://registry.npmjs.org/react-native-navbar/-/react-native-navbar-1.0.3.tgz',
+59 silly install resolved     readme: 'ERROR: No README data found!' } ]
+60 info install react-native-navbar@1.0.3 into /Users/spencerpope/Desktop/ReactNativeHackerNews
+61 info installOne react-native-navbar@1.0.3
+62 verbose installOne of react-native-navbar to /Users/spencerpope/Desktop/ReactNativeHackerNews not in flight; installing
+63 verbose lock using /Users/spencerpope/.npm/_locks/react-native-navbar-e02131ad14ed5046.lock for /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+64 silly install write writing react-native-navbar 1.0.3 to /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+65 verbose unbuild node_modules/react-native-navbar
+66 info preuninstall react-native-navbar@1.0.3
+67 info uninstall react-native-navbar@1.0.3
+68 verbose unbuild rmStuff react-native-navbar@1.0.3 from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules
+69 info postuninstall react-native-navbar@1.0.3
+70 silly gentlyRm /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar is being purged from base /Users/spencerpope/Desktop/ReactNativeHackerNews
+71 verbose gentlyRm don't care about contents; nuking /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+72 silly vacuum-fs purging /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+73 silly vacuum-fs quitting because other entries in /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules
+74 verbose tar unpack /Users/spencerpope/.npm/react-native-navbar/1.0.3/package.tgz
+75 verbose tar unpacking to /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+76 silly gentlyRm /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar is being purged
+77 verbose gentlyRm don't care about contents; nuking /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .npmignore
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm extractEntry LICENSE
+83 silly gunzTarPerm extractEntry styles.js
+84 silly gunzTarPerm extractEntry index.js
+85 silly gunzTarPerm extractEntry NavbarButton.js
+86 silly gunzTarPerm extractEntry .editorconfig
+87 silly gunzTarPerm extractEntry CHANGELOG.md
+88 silly gunzTarPerm extractEntry .eslintrc
+89 silly gunzTarPerm extractEntry .babelrc
+90 verbose write writing to /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar/package.json
+91 info preinstall react-native-navbar@1.0.3
+92 verbose readDependencies loading dependencies from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar/package.json
+93 silly prepareForInstallMany adding react-native@>=0.11 || 0.13.0-rc from react-native-navbar peerDependencies
+94 warn peerDependencies The peer dependency react-native@>=0.11 || 0.13.0-rc included from react-native-navbar will no
+95 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+96 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+97 verbose readDependencies loading dependencies from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar/package.json
+98 silly install resolved []
+99 verbose about to build /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+100 info build /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+101 info linkStuff react-native-navbar@1.0.3
+102 silly linkStuff react-native-navbar@1.0.3 has /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules as its parent node_modules
+103 verbose linkBins react-native-navbar@1.0.3
+104 verbose linkMans react-native-navbar@1.0.3
+105 verbose rebuildBundles react-native-navbar@1.0.3
+106 info install react-native-navbar@1.0.3
+107 info postinstall react-native-navbar@1.0.3
+108 verbose readDependencies loading dependencies from /Users/spencerpope/Desktop/ReactNativeHackerNews/package.json
+109 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/entities/package.json
+110 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/events/package.json
+111 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/htmlparser2/package.json
+112 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/moment/package.json
+113 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native/package.json
+114 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-custom-navigation/package.json
+115 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-dashed-border/package.json
+116 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-htmlview/package.json
+117 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar/package.json
+118 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-refreshable-listview/package.json
+119 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-swipeout/package.json
+120 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/underscore/package.json
+121 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/url/package.json
+122 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/url-join/package.json
+123 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/util/package.json
+124 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/xtend/package.json
+125 verbose targetResolver reading package data from /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/.bin/react-native-start/package.json
+126 verbose already installed skipping react-native@>=0.11 || 0.13.0-rc /Users/spencerpope/Desktop/ReactNativeHackerNews
+127 silly install resolved []
+128 verbose unlock done using /Users/spencerpope/.npm/_locks/react-native-navbar-e02131ad14ed5046.lock for /Users/spencerpope/Desktop/ReactNativeHackerNews/node_modules/react-native-navbar
+129 verbose validateInstall loading /Users/spencerpope/Desktop/ReactNativeHackerNews/package.json for validation
+130 verbose stack Error: The package react-native@0.4.4 does not satisfy its siblings' peerDependencies requirements!
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/lib/install.js:125:32
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/lib/install.js:268:7
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+130 verbose stack     at cb (/Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+130 verbose stack     at cb (/Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+130 verbose stack     at cb (/Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+130 verbose stack     at /Users/spencerpope/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+131 verbose cwd /Users/spencerpope/Desktop/ReactNativeHackerNews
+132 error Darwin 15.0.0
+133 error argv "/Users/spencerpope/.nvm/versions/node/v4.1.2/bin/node" "/Users/spencerpope/.nvm/versions/node/v4.1.2/bin/npm" "install" "react-native-navbar" "--save"
+134 error node v4.1.2
+135 error npm  v2.14.4
+136 error code EPEERINVALID
+137 error peerinvalid The package react-native@0.4.4 does not satisfy its siblings' peerDependencies requirements!
+137 error peerinvalid Peer react-native-swipeout@2.1.0 wants react-native@^0.x
+137 error peerinvalid Peer react-native-navbar@1.0.3 wants react-native@>=0.11 || 0.13.0-rc
+138 verbose exit [ 1, true ]
